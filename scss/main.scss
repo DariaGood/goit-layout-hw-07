@@ -3,6 +3,7 @@
 @import './utils/vissually-hidden';
 
 // base styles
+@import './base/caption';
 @import './base/common';
 @import './base/reset';
 @import './base/container';
@@ -10,9 +11,9 @@
 
 // layouts
 @import './layouts/header';
-@import './_layouts.scss/hero';
-@import './_layouts.scss/benefits';
-@import './_layouts.scss/what-we-do';
+@import './layouts/hero';
+@import './layouts/benefits';
+@import './layouts/what-we-do';
 
 
 

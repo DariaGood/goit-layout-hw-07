@@ -1,11 +1,11 @@
-
-.we-do-section {
+/*  Что мы делаем */
+.what-we-do {
     padding: 94px 0px;
     margin: 0 auto;
     
 }
 
-.we-do  {
+.we-do-list {
     display: flex;
     justify-content:space-between;
     align-items: center;
@@ -14,7 +14,7 @@
 
 }
 
-.li-we-do {
+.we-do-iteam {
     height: 294px;
     list-style-type:none;
     display: block;
@@ -26,14 +26,7 @@
     
 }
 
-
-.we-do-flex > li:not(:first-child) {
-    margin-left: 30px;
-}
-
-
-
-.li-we-do::before {
+.we-do-iteam::before {
     content: ' ';
     display: block;
  
@@ -48,7 +41,7 @@
 }
 
 
-.p-text-we-do {
+.we-do-about {
    
     display: block;
     box-sizing: border-box;
