@@ -1,21 +1,33 @@
 // utils
 @import './utils/vars';
 @import './utils/vissually-hidden';
+@import './utils/variables';
 
 // base styles
-@import './base/caption';
 @import './base/common';
 @import './base/reset';
 @import './base/container';
 @import './base/card-set';
+
 
 // layouts
 @import './layouts/header';
 @import './layouts/hero';
 @import './layouts/benefits';
 @import './layouts/what-we-do';
+@import './layouts/our-team';
+@import './layouts/clients';
+@import './layouts/portfolio';
+@import './layouts/footer';
+
+
 
 
 
 // components
 @import './components/logo';
+@import './components/button';
+@import './components/form-follow';
+@import './components/grid';
+@import './components/modal-form';
+@import './components/social';

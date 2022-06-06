@@ -1,0 +1,112 @@
+/*  Наша команда*/
+
+.our-team {
+    padding: 94px 0px;
+    background-color: #F5F4FA;
+}
+
+.our-people-list {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.our-people-iteam {
+    background-color: #FFFFFF;
+    width: 270px; 
+    box-sizing: border-box;
+    border: 0;
+    margin-left: 30px;
+    flex-basis: calc((100% - 120px) / 4);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+
+}
+
+.our-people-iteam:first-child {
+    margin-left: 0;
+}
+
+
+.about-our-team {
+    padding: 30px 0px 0px 0px;
+    margin: 0px;
+}
+
+.our-people-name {
+    color: var(--c212121);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+
+    text-align: center;
+   
+    box-sizing: border-box;
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 0;
+    
+}
+
+.our-people-post {
+    color: #757575;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    box-sizing: border-box;
+    
+    display: block;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.our-people-media-iteam {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 16px 32px 30px 32px;
+    margin: 0;
+}
+
+
+
+.our-people-media-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    padding: 0;
+
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.our-people-media-link:hover,
+.our-people-media-link:focus {
+    background-color: #2196F3;
+}
+
+.bout-our-team:last-child {
+    margin-right: 0px;
+}
+
+
+.our-people-icon {
+    fill: #AFB1B8;
+}
+
+.our-people-media-link:hover .our-people-icon,
+.our-people-media-link:focus .our-people-icon {
+    fill:#FFFFFF;
+}
+
+
+
+

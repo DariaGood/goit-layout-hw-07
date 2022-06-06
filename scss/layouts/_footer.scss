@@ -1,0 +1,101 @@
+.li-icon-media {
+    margin-right: 10px;
+    list-style-type: none;
+}
+
+
+
+
+/* Footer */
+
+
+
+.footer {
+    background-color: #2F303A;
+    display: block;
+    box-sizing: border-box;
+    padding: 0px 0px 60px 0px;
+    margin-left: 0px;
+    margin-right: auto;
+
+    
+
+    
+}
+
+.logo-footer {
+    display: block;
+    box-sizing: border-box;
+    padding: 0px; 
+    margin: 0px;
+}
+
+
+
+
+
+
+/* Адресс footer */
+
+
+.position-footer {
+    display: flex;
+    position: relative;
+
+    position: relative;
+    
+}
+
+.adress-footer-list {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    padding: 53px 70px 0px 0px;
+    list-style-type: none;
+    margin: 0;
+}
+
+
+.li-adress-footer {
+    display: block;
+    box-sizing: border-box;
+    margin-bottom: 9px;
+    
+}
+
+.li-adress-footer:first-child {
+    margin-bottom: 20px;
+}
+
+.li-adress-footer:last-child {
+    margin-bottom: 0px;
+}
+
+.adress-footer {
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color:  rgba(255, 255, 255, 0.6);
+    font-style: normal;
+    text-decoration: none;
+
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+.adress-footer:hover,
+.adress-footer:focus {
+    color:  rgba(255, 255, 255, 1);
+}
+
+
+
+.adress-city {
+    color: var(--white)
+}
+
+
+
+

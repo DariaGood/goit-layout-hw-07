@@ -1,3 +1,4 @@
+/*
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0 auto;
@@ -24,7 +25,7 @@ max-width: 100%;
 height: auto;
 }
 
-
+*/
          /* Страница студия */
 
 
@@ -128,6 +129,7 @@ height: auto;
 
 /* Модальное окно */
 
+/*
 .backdrop {
     background-color: rgba(0, 0, 0, 0.2);
     width: 100%;
@@ -207,10 +209,10 @@ height: auto;
     fill:#2196F3
 
 }
-
+*/
 
 /* Разметка модального окна всередине*/
-
+/*
 .form-call {
     display: block;
     margin: 0;
@@ -245,10 +247,11 @@ height: auto;
 .item-form:last-child {
     margin-bottom: 0px;
 }
+*/
 
 /* Список в форме */
 
-
+/*
 .label-form {
     display: block;
     position: absolute;
@@ -356,11 +359,11 @@ height: auto;
     
 }
 
-
+*/
 
 /* Согласие договор */
 
-
+/*
 .form-policy-group {
     display: flex;
     justify-content:center;
@@ -481,7 +484,7 @@ height: auto;
 
     
 }
-
+*/
 
 
 
@@ -664,26 +667,12 @@ height: auto;
 
 
 /* Наша команда*/
-
+/*
 .team-section {
     padding: 94px 0px;
     background-color: #F5F4FA;
 }
 
-.name-h2 {
-    color: var(--c212121);
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
-    letter-spacing: 0.03em;
-    text-align: center;
-
-    display: block;
-    box-sizing: border-box;
-    margin: 0px 0px 50px 0px;
-   
-   
-}
 
 .li-our-team:first-child {
     margin-left: 0;
@@ -793,11 +782,13 @@ height: auto;
     fill:#FFFFFF;
 }
 
-
+*/
 
 
 
 /* Клиенты */
+
+/*
 
 .clients-section {
     display: block;
@@ -868,12 +859,12 @@ height: auto;
     fill: #2196F3; 
 }
 
-
+*/
 
 
 /* Footer */
 
-
+/*
 
 .footer {
     background-color: #2F303A;
@@ -902,7 +893,7 @@ height: auto;
 
 /* Адресс footer */
 
-
+/*
 .position-footer {
     display: flex;
     position: relative;
@@ -962,12 +953,12 @@ height: auto;
 }
 
 
-
+*/
 
 
 
 /*  Follow footer */
-
+/*
 .follow {
     display: flex;
     box-sizing: border-box;
@@ -1038,9 +1029,12 @@ height: auto;
     background-color: #2196F3;
 }
 
+*/
 
 
 /* Форма "Подписка на рассылку" */
+
+/*
 
 .form-footer {
     display: flex;
@@ -1159,6 +1153,7 @@ height: auto;
     margin-left: 10px;
 }
 
+*/
 
 
 
@@ -1179,6 +1174,7 @@ height: auto;
 
 /*Кнопки фильтра*/
 
+/*
 .nav-button {
     display: block;
     box-sizing: border-box;
@@ -1272,12 +1268,12 @@ height: auto;
 
 }
 
-
+*/
 
 
 /* Список проектов */
 
-
+/*
 
 .list-projects {
     display: block;
@@ -1429,9 +1425,7 @@ height: auto;
 
 }
 
-
-
-
+*/
 
 
 
@@ -1441,7 +1435,7 @@ height: auto;
 
 
 /* Сетка*/
-
+/*
 
 .projects-flex {
 
@@ -1467,3 +1461,4 @@ height: auto;
     padding: 0;
 } 
 
+*/
