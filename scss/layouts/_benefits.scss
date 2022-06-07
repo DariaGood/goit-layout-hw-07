@@ -1,14 +1,13 @@
 /* Преимущества */
 
-
-.benefits-section {
+.benefits {
     display: block;
     box-sizing: border-box;
     margin: 0;
     padding: 94px 0px 0px 0px;
 }
 
-.benefits-list {
+.benefits__list {
     display: flex;
     justify-content:space-between;
     align-items: center;
@@ -17,7 +16,7 @@
     padding: 0;   
 }
 
-.benefits-iteam {
+.benefits__iteam {
     display: block;
     box-sizing: border-box;
     width: 270px;
@@ -25,11 +24,11 @@
     margin-left: 0px;
     padding: 0;
 
-    & > li:not(:first-child) {
+    &:not(:first-child) {
         margin-left: 30px;
     }
 
-    &__rect-position {
+    .benefits__rect {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -45,7 +44,7 @@
         
     }
 
-    &__text-about-benefits {
+    .benefits__text {
         color: #757575;
         font-size: 14px;
         line-height: 1.71;
@@ -58,11 +57,9 @@
     
     }
 
-
 }
 
-
-.svg-about-benefits {
+.benefits__icon {
     display: flex;
     justify-content: center;
     align-items: center;

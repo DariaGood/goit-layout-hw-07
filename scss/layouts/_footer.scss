@@ -1,14 +1,4 @@
-.li-icon-media {
-    margin-right: 10px;
-    list-style-type: none;
-}
-
-
-
-
 /* Footer */
-
-
 
 .footer {
     background-color: #2F303A;
@@ -17,28 +7,22 @@
     padding: 0px 0px 60px 0px;
     margin-left: 0px;
     margin-right: auto;
-
-    
-
-    
+   
 }
 
-.logo-footer {
-    display: block;
-    box-sizing: border-box;
-    padding: 0px; 
-    margin: 0px;
+.media__iteam {
+    margin-right: 10px;
+    list-style-type: none;
 }
 
 
 
 
 
+/* Адресс в footer */
 
-/* Адресс footer */
 
-
-.position-footer {
+.footer-position {
     display: flex;
     position: relative;
 
@@ -46,7 +30,7 @@
     
 }
 
-.adress-footer-list {
+.footer-contact__list {
     display: flex;
     box-sizing: border-box;
     flex-direction: column;
@@ -56,22 +40,24 @@
 }
 
 
-.li-adress-footer {
+.footer-contact__iteam {
     display: block;
     box-sizing: border-box;
     margin-bottom: 9px;
+
+    &:first-child {
+        margin-bottom: 20px;
+    }
+    
+    &:last-child {
+        margin-bottom: 0px;
+    }
     
 }
 
-.li-adress-footer:first-child {
-    margin-bottom: 20px;
-}
 
-.li-adress-footer:last-child {
-    margin-bottom: 0px;
-}
 
-.adress-footer {
+.footer-contact__link {
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
@@ -83,19 +69,54 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-}
-
-.adress-footer:hover,
-.adress-footer:focus {
+    &:hover,
+    &:focus {
     color:  rgba(255, 255, 255, 1);
 }
 
+}
 
-
-.adress-city {
+.footer-contact-adress__link {
     color: var(--white)
 }
 
+/* Подписка в соц сети в футере*/
 
+.follow-caption-third {
+    display:block;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+
+    color: var(--c212121);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+
+.media-link__follow {
+    background-color: rgba(255, 255, 255, 0.1);
+
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+
+
+.media-link__follow:hover,
+.media-link__follow:focus {
+    background-color: #2196F3;
+}
+
+
+.media-icon__follow {
+    fill: #FFFFFF;
+}
 
 

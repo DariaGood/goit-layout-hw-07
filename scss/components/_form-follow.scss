@@ -2,7 +2,7 @@
 
 /* Форма "Подписка на рассылку" */
 
-.form-footer {
+.contact-form {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,7 +29,7 @@
 
 }
 
-.text-form-footer {
+.contact-form__calling {
     display: block;
     box-sizing: border-box;
     padding-bottom: 20px;
@@ -43,7 +43,7 @@
     text-transform: uppercase;
 }
 
-.input-footer {
+.contact-form__text {
     display: block;
     padding: 0px 15px;
 
@@ -79,20 +79,15 @@
     clip: rect(0 0 0 0);
     }
 
-.input-footer:focus-within{
+.contact-form__text:focus-within{
  
     outline: 1px solid rgba(255, 255, 255, 0.7);
     outline-offset: -1px;
     
 }
 
-.button-submit-footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-sizing: border-box;
+.contact-form__button {
 
-    background-color: #2196F3;
     width: 200px;
     height: 50px;
     border-style: none;
@@ -114,14 +109,10 @@
 
 }
 
-.svg-form-footer {
+.contact-form__icon {
     fill: #FFFFFF;
     margin-left: 10px;
 }
-
-
-
-
 
 
 

@@ -1,11 +1,13 @@
-.clients-section {
+/* Клиенты */
+
+.clients {
     display: block;
     box-sizing: border-box;
     padding: 94px 0px ;
 }
 
 
-.list-clients {
+.clients__list {
     display: flex;
     align-items:center;
     justify-content:space-between;
@@ -15,55 +17,53 @@
 }
 
 
-.li-clients {
+.clients__iteam {
     display: block;
     box-sizing: border-box;
     width: 170px; 
     padding: 0px;
     margin: 0px 30px 0px 0px;
 
+    &:last-child {
+        margin-right: 0px;
+    }
+
+    .clients__link {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 170;
+        height: 92px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: #AFB1B8;
+        border-radius: 4px;
+        padding: 16px 32px;
+    
+        transition-property: border-color;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        
+        &:hover {
+            border-color: #2196F3;
+        }
+    }
+    
+    
+    .clients__icon {
+        fill: #AFB1B8;
+    
+        transition-property: fill;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+      
+    }
+
 }
 
 
-.li-clients:last-child {
-    margin-right: 0px;
-}
-
-
-.svg-clients {
-    fill: #AFB1B8;
-
-    transition-property: fill;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  
-}
-
-
-
-.a-icon-clients {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 170;
-    height: 92px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #AFB1B8;
-    border-radius: 4px;
-    padding: 16px 32px;
-
-    transition-property: border-color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.a-icon-clients:hover {
-    border-color: #2196F3;
-}
-
-.a-icon-clients:hover .svg-clients,
-.a-icon-clients:focus .svg-clients {
+.clients__link:hover .clients__icon,
+.clients__link:focus .clients__icon {
     fill: #2196F3; 
 }
 

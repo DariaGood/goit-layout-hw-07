@@ -41,7 +41,7 @@
     
 }
 
-.button-oc {
+.button-closing {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -63,7 +63,7 @@
 }
 
 
-.svg-close {
+.button-closing__icon {
     display: flex;
     justify-content: center;  
     align-items: center;  
@@ -75,7 +75,7 @@
 
 }
 
-.button-oc:hover .svg-close {
+.button-closing:hover .button-closing__icon {
     fill:#2196F3
 
 }
@@ -83,7 +83,7 @@
 
 /* Разметка модального окна всередине*/
 
-.form-call {
+.modal-form__calling {
     display: block;
     margin: 0;
     text-align: center;
@@ -97,7 +97,7 @@
 
 }
 
-.list-modal-form {
+.modal-form__list {
     display: flex;
     flex-direction: column;
 
@@ -109,19 +109,19 @@
     
 }
 
-.item-form {
+.modal-form__item {
     position: relative;
     margin-bottom: 28px;
 }
 
-.item-form:last-child {
+.modal-form__item:last-child {
     margin-bottom: 0px;
 }
 
 /* Список в форме */
 
 
-.label-form {
+.modal-form__prompt {
     display: block;
     position: absolute;
     top: -16px;
@@ -137,7 +137,7 @@
     }
 
 
-.input-form {
+.modal-form__text {
     
     width: 448px;
     height: 40px;
@@ -161,7 +161,7 @@
 
 
 
-.icon-form {
+.form-policy-group__icon {
     display: block;
     align-items: center;
 
@@ -180,18 +180,18 @@
 }
 
 
-.input-form:focus  + .icon-form {
+.modal-form__text:focus  + .form-policy-group__icon {
     fill:#2196F3;
     cursor: pointer;
 }
   
-.input-form:focus-within {  
+.modal-form__text:focus-within {  
     border-color: #2196F3;
     
 }
 
 
-.input-comment {
+.modal-form__comment {
     max-width: 448px;
     min-width: 448px;
     height: 120px;
@@ -215,11 +215,11 @@
 }
 
 
-.input-comment::placeholder {
+.modal-form__comment::placeholder {
     color: rgba(117, 117, 117, 0.5);
 }
 
-.input-comment:focus-within{
+.modal-form__comment:focus-within{
     outline: 0;
     border-color: #2196F3;
     border-width: 1px;
@@ -248,7 +248,7 @@
 }
 
 
-.text-agreement {
+.form-policy-group__agreement {
     display: flex;
     justify-content: center;
     
@@ -262,11 +262,11 @@
 
 }
 
-.input-agreement {
+.form-policy-group__agreement {
     visibility: hidden;
 }
 
-.custom-checkbox {
+.form-policy-group__checkbox {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -291,7 +291,7 @@
 }
 
 
-.svg-form-agreement {
+.form-policy-group__icon {
     position: absolute;
     top: 25%;
     left: 18%;
@@ -303,11 +303,11 @@
 }
 
 
-.input-agreement:checked  + .custom-checkbox .svg-form-agreement {
+.form-policy-group__agreement:checked  + .form-policy-group__checkbox .form-policy-group__agreement {
     fill: #FFFFFF;
 }
 
-.input-agreement:checked + .custom-checkbox {
+.form-policy-group__agreement:checked + .form-policy-group__checkbox {
     border-style: none;
     background-color: #2196F3;
     outline-color:#2196F3;
