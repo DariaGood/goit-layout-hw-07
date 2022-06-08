@@ -29,12 +29,12 @@
         </nav>
         
         <ul class="header__contacts">
-            <li class="header__contacts-iteam">
+            <li class="header__contacts-item">
             <a href="mailto:info@devstudio.com" class="header__contacts-link">
                 <svg width="16" height="12" class="header__contacts-icon">
                 <use href="./img/symbol-defs.svg#mail"></use></svg>info@devstudio.com</a>
             </li>
-            <li class="header__contacts-iteam">
+            <li class="header__contacts-item">
             <a href="tel:0961111111" class="header__contacts-link">
                 <svg width="10" height="16" class="header__contacts-icon">
                 <use href="./img/symbol-defs.svg#smartphone"></use></svg>096 111 11 11</a>
@@ -55,7 +55,7 @@
         <div class="hero container ">
     <h1 class="caption-first">Эффективные решения для вашего бизнеса</h1>
     <button data-modal-open type="button" class="button hero__button">Заказать услугу</button> 
-    <div class="backdrop is-hidden" data-modal>
+    <div class="backdrop backdrop--is-hidden" data-modal>
         <div class="modal-wrapper">
         <button data-modal-close type="button" class="button-closing">
             <svg width="11" height="11" viewBox="0 0 11 11" xmlns="http://www.w3.org/2000/svg" class="button-closing__icon">
@@ -106,7 +106,7 @@
                 <use  href="./img/symbol-defs.svg#icon-agreement"></use>
             </svg>
             </span>
-            <span class="form-policy-group__text">Соглашаюсь с рассылкой и принимаю<a href="" class="a-button-form">Условия договора</a></span>
+            <span class="form-policy-group__text">Соглашаюсь с рассылкой и принимаю<a href="" class="form-policy-group__link">Условия договора</a></span>
             </label>  
             <button type="submit" class="button-submit">Отправить</button>
         </form>
@@ -120,7 +120,7 @@
     <section class="benefits"> 
         <div class="container"> 
     <ul class="benefits__list">
-        <li class="benefits__iteam">
+        <li class="benefits__item">
             <div class="benefits__rect">
                 <svg width="70" height="70" class="benefits__icon">
                     <use href="./img/symbol-defs.svg#antena"></use></svg>
@@ -128,7 +128,7 @@
             <h3 class="caption-third">Внимание к деталям</h3>
             <p class="benefits__text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
         </li>
-        <li class="benefits__iteam">
+        <li class="benefits__item">
             <div class="benefits__rect">
                 <svg width="70" height="70" class="benefits__icon">
                     <use href="./img/symbol-defs.svg#clock"></use></svg>
@@ -136,7 +136,7 @@
             <h3 class="caption-third">Пунктуальность</h3>
             <p class="benefits__text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
         </li>
-        <li class="benefits__iteam">
+        <li class="benefits__item">
             <div class="benefits__rect">
                 <svg width="70" height="70" class="benefits__icon">
                     <use href="./img/symbol-defs.svg#diagram"></use></svg>
@@ -144,7 +144,7 @@
             <h3 class="caption-third">Планирование</h3>
             <p class="benefits__text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
         </li>
-        <li class="benefits__iteam">
+        <li class="benefits__item">
             <div class="benefits__rect">
                 <svg width="70" height="70" class="benefits__icon">
                     <use href="./img/symbol-defs.svg#astronaut"></use></svg>
@@ -162,18 +162,18 @@
         <div class="container">
         <h2 class="caption-second">Чем мы занимаемся</h2>
         <ul class="we-do__list">
-        <li class="we-do__iteam">
+        <li class="we-do__item">
             <img src="img/image_1.jpg" width="370" height="294" alt="Картинка 1">
             <div>
                 <p class="we-do__about">Десктопные приложения</p>
             </div>
         </li>
-        <li class="we-do__iteam"><img src="img/image_2.jpg" width="370" height="294" alt="Картинка 2">
+        <li class="we-do__item"><img src="img/image_2.jpg" width="370" height="294" alt="Картинка 2">
             <div>
                 <p class="we-do__about">Мобильные приложения</p>
             </div>
         </li>
-        <li class="we-do__iteam">
+        <li class="we-do__item">
             <img src="img/image_3.jpg" width="370" height="294" alt="Картинка 3">
         <div>
             <p class="we-do__about">Дизайнерские решения</p>
@@ -190,32 +190,32 @@
         <h2 class="caption-second">Наша команда</h2>
         <!--igor demyanenko-->
             <ul class="our-team__list">
-                <li class="our-team__iteam">
+                <li class="our-team__item">
                 <img src="img/igor_demyanenko.jpg" width="270" height="260" alt="Игорь Демьяненко">
                 <div class="our-team__about">
                 <p class="our-team__name">Игорь Демьяненко</p>
                 <p class="our-team__post">Product Designer</p>
                 </div>
-                <ul class="media__list">
-                    <li class="media__iteam">
+                <ul class="media our-team--media ">
+                    <li class="media__item">
                         <a href="" target="-blank" rel="noopener noreferrer" aria-label="иконка инстраграм" class="media-link our-team-media__link">
                         <svg width="20" height="20" class="media-icon our-team-media__icon">
                         <use href="./img/symbol-defs.svg#instagram"></use></svg>
                         </a>
                     </li>
-                    <li class="media__iteam">
+                    <li class="media__item">
                         <a href="" target="-blank" rel="noopener noreferrer" aria-label="иконка твитер" class="media-link our-team-media__link">
                         <svg width="20" height="20" class="media-icon our-team-media__icon">
                         <use href="./img/symbol-defs.svg#twitter"></use></svg>
                         </a>
                     </li>
-                    <li class="media__iteam">
+                    <li class="media__item">
                         <a href="" target="-blank" rel="noopener noreferrer" aria-label="иконка фейсбук" class="media-link our-team-media__link">
                         <svg width="20" height="20" class="media-icon our-team-media__icon">
                         <use href="./img/symbol-defs.svg#facebook"></use></svg>
                         </a>
                     </li>
-                    <li class="media__iteam">
+                    <li class="media__item">
                         <a href="" target="-blank" rel="noopener noreferrer" aria-label="иконка линкедин" class="media-link our-team-media__link">
                         <svg width="20" height="20" class="media-icon our-team-media__icon">
                         <use href="./img/symbol-defs.svg#linkedin"></use></svg>
@@ -228,32 +228,32 @@
 
         <!--olha repina-->
 
-            <li class="our-team__iteam">
+            <li class="our-team__item">
             <img src="img/olha_repina.jpg" width="270" height="260" alt="Ольга Репина">
             <div class="our-team__about">
             <p class="our-team__name">Ольга Репина</p>
             <p class="our-team__post">Frontend Developer</p>
             </div>
-            <ul class="media__list">
-                <li class="media__iteam">
+            <ul class="media">
+                <li class="media__item">
                     <a href="" target="-blank" rel="noopener noreferrer" aria-label="иконка инстраграм" class="media-link our-team-media__link">
                     <svg width="20" height="20" class="media-icon our-team-media__icon">
                     <use href="./img/symbol-defs.svg#instagram"></use></svg>
                     </a>
                 </li>
-                <li class="media__iteam">
+                <li class="media__item">
                     <a href="" target="-blank" rel="noopener noreferrer" aria-label="иконка твитер" class="media-link our-team-media__link">
                     <svg width="20" height="20" class="media-icon our-team-media__icon">
                     <use href="./img/symbol-defs.svg#twitter"></use></svg>
                     </a>
                 </li>
-                <li class="media__iteam">
+                <li class="media__item">
                     <a href="" target="-blank" rel="noopener noreferrer" aria-label="иконка фейсбук" class="media-link our-team-media__link">
                     <svg width="20" height="20" class="media-icon our-team-media__icon">
                     <use href="./img/symbol-defs.svg#facebook"></use></svg>
                     </a>
                 </li>
-                <li class="media__iteam">
+                <li class="media__item">
                     <a href="" target="-blank" rel="noopener noreferrer" aria-label="иконка линкедин" class="media-link our-team-media__link">
                     <svg width="20" height="20" class="media-icon our-team-media__icon">
                     <use href="./img/symbol-defs.svg#linkedin"></use></svg>
@@ -263,32 +263,32 @@
             </li>
         
         <!--nikolay tarasov-->
-        <li class="our-team__iteam">
+        <li class="our-team__item">
             <img src="img/nikolay_tarasov.jpg" width="270" height="260" alt="Николай Тарасов">
             <div class="our-team__about">
             <p class="our-team__name">Николай Тарасов</p>
             <p class="our-team__post">Marketing</p>
             </div>
-            <ul class="media__list">
-                <li class="media__iteam">
+            <ul class="media">
+                <li class="media__item">
                     <a href="" target="-blank" rel="noopener noreferrer" aria-label="иконка инстраграм" class="media-link our-team-media__link">
                     <svg width="20" height="20" class="media-icon our-team-media__icon">
                     <use href="./img/symbol-defs.svg#instagram"></use></svg>
                     </a>
                 </li>
-                <li class="media__iteam">
+                <li class="media__item">
                     <a href="" target="-blank" rel="noopener noreferrer" aria-label="иконка твитер" class="media-link our-team-media__link">
                     <svg width="20" height="20" class="media-icon our-team-media__icon">
                     <use href="./img/symbol-defs.svg#twitter"></use></svg>
                     </a>
                 </li>
-                <li class="media__iteam">
+                <li class="media__item">
                     <a href="" target="-blank" rel="noopener noreferrer" aria-label="иконка фейсбук" class="media-link our-team-media__link">
                     <svg width="20" height="20" class="media-icon our-team-media__icon">
                     <use href="./img/symbol-defs.svg#facebook"></use></svg>
                     </a>
                 </li>
-                <li class="media__iteam">
+                <li class="media__item">
                     <a href="" target="-blank" rel="noopener noreferrer" aria-label="иконка линкедин" class="media-link our-team-media__link">
                     <svg width="20" height="20" class="media-icon our-team-media__icon">
                     <use href="./img/symbol-defs.svg#linkedin"></use></svg>
@@ -298,32 +298,32 @@
         </li>
 
        <!--mihail ermakov-->
-       <li class="our-team__iteam">
+       <li class="our-team__item">
             <img src="img/mihail_ermakov.jpg" width="270" height="260" alt="Михаил Ермаков">
             <div class="our-team__about">
             <p class="our-team__name">Михаил Ермаков</p>
             <p class="our-team__post">UI Designer</p>
             </div>
-            <ul class="media__list">
-                <li class="media__iteam">
+            <ul class="media">
+                <li class="media__item">
                     <a href="" target="-blank" rel="noopener noreferrer" aria-label="иконка инстраграм" class="media-link our-team-media__link">
                     <svg width="20" height="20" class="media-icon our-team-media__icon">
                     <use href="./img/symbol-defs.svg#instagram"></use></svg>
                     </a>
                 </li>
-                <li class="media__iteam">
+                <li class="media__item">
                     <a href="" target="-blank" rel="noopener noreferrer" aria-label="иконка твитер" class="media-link our-team-media__link">
                     <svg width="20" height="20" class="media-icon our-team-media__icon">
                     <use href="./img/symbol-defs.svg#twitter"></use></svg>
                     </a>
                 </li>
-                <li class="media__iteam">
+                <li class="media__item">
                     <a href="" target="-blank" rel="noopener noreferrer" aria-label="иконка фейсбук" class="media-link our-team-media__link">
                     <svg width="20" height="20" class="media-icon our-team-media__icon">
                     <use href="./img/symbol-defs.svg#facebook"></use></svg>
                     </a>
                 </li>
-                <li class="media__iteam">
+                <li class="media__item">
                     <a href="" target="-blank" rel="noopener noreferrer" aria-label="иконка линкедин" class="media-link our-team-media__link">
                     <svg width="20" height="20" class="media-icon our-team-media__icon">
                     <use href="./img/symbol-defs.svg#linkedin"></use></svg>
@@ -342,32 +342,32 @@
     <div class="container">
         <h2 class="caption-second">Постоянные клиенты</h2>
         <ul class="clients__list">
-            <li class="clients__iteam">
+            <li class="clients__item">
                 <a href="" target="-blank" rel="noopener noreferrer" aria-label="icon istagram" class="clients__link">
                 <svg width="106" height="60" class="clients__icon">
                   <use href="./img/symbol-defs.svg#Company1"></use></svg></a>
             </li>
-            <li class="clients__iteam">
+            <li class="clients__item">
                 <a href="" target="-blank" rel="noopener noreferrer" aria-label="icon istagram" class="clients__link">
                     <svg width="106" height="60" class="clients__icon">
                       <use href="./img/symbol-defs.svg#Company2"></use></svg></a>
             </li>
-            <li class="clients__iteam">
+            <li class="clients__item">
                 <a href="" target="-blank" rel="noopener noreferrer" aria-label="icon istagram" class="clients__link">
                     <svg width="106" height="60" class="clients__icon">
                       <use href="./img/symbol-defs.svg#Company3"></use></svg></a>
             </li>
-            <li class="clients__iteam">
+            <li class="clients__item">
                 <a href="" target="-blank" rel="noopener noreferrer" aria-label="icon istagram" class="clients__link">
                     <svg width="106" height="60" class="clients__icon">
                       <use href="./img/symbol-defs.svg#Company4"></use></svg></a>
             </li>
-            <li class="clients__iteam">
+            <li class="clients__item">
                 <a href="" target="-blank" rel="noopener noreferrer" aria-label="icon istagram" class="clients__link">
                     <svg width="106" height="60" class="clients__icon">
                       <use href="./img/symbol-defs.svg#Company5"></use></svg></a>
             </li>
-            <li class="clients__iteam">
+            <li class="clients__item">
                 <a href="" target="-blank" rel="noopener noreferrer" aria-label="icon istagram" class="clients__link">
                     <svg width="106" height="60" class="clients__icon">
                       <use href="./img/symbol-defs.svg#Company6"></use></svg></a>
@@ -388,34 +388,34 @@
     <div class="container">
         <div class="footer-position">
         <ul class="footer-contact__list">
-            <li class="footer-contact__iteam"><a href="index.html" lang="en" class="logo"><span class="logo__web">Web</span><span class="logo__studio logo__studio--inverse">Studio</span></a>
-            <li class="footer-contact__iteam"><address><a href="" class="footer-contact__link"><span class="footer-contact-adress__link">г. Киев, пр-т Леси Украинки, 26</span></a></address></li>
-            <li class="footer-contact__iteam"><address><a href="mailto:info@example.com" class="footer-contact__link">info@example.com</a></address></li>
-            <li class="footer-contact__iteam"><address><a href="tel:380991111111" class="footer-contact__link">+38 099 111 11 11</a></address></li>
+            <li class="footer-contact__item"><a href="index.html" lang="en" class="logo"><span class="logo__web">Web</span><span class="logo__studio logo__studio--inverse">Studio</span></a>
+            <li class="footer-contact__item"><address><a href="" class="footer-contact__link"><span class="footer-contact-adress__link">г. Киев, пр-т Леси Украинки, 26</span></a></address></li>
+            <li class="footer-contact__item"><address><a href="mailto:info@example.com" class="footer-contact__link">info@example.com</a></address></li>
+            <li class="footer-contact__item"><address><a href="tel:380991111111" class="footer-contact__link">+38 099 111 11 11</a></address></li>
         </ul>
         <div class="follow">
-        <h3  class="caption-third">Присоединяйтесь</h3>
-        <ul class="media__list">
-            <li class="media__iteam">
-                <a href="" target="-blank" rel="noopener noreferrer" aria-label="иконка инстраграм" class="media-link media-link__follow">
+        <h3  class="caption-third follow--caption-third">Присоединяйтесь</h3>
+        <ul class="media">
+            <li class="media__item">
+                <a href="" target="-blank" rel="noopener noreferrer" aria-label="иконка инстраграм" class="media-link follow--media-link">
                 <svg width="20" height="20" class="media-icon media-icon__follow">
                 <use href="./img/symbol-defs.svg#instagram"></use></svg>
                 </a>
             </li>
-            <li class="media__iteam">
-                <a href="" target="-blank" rel="noopener noreferrer" aria-label="иконка  твитер" class="media-link media-link__follow">
+            <li class="media__item">
+                <a href="" target="-blank" rel="noopener noreferrer" aria-label="иконка  твитер" class="media-link follow--media-link">
                 <svg width="20" height="20" class="media-icon  media-icon__follow">
                 <use href="./img/symbol-defs.svg#twitter"></use></svg>
                 </a>
             </li>
-            <li class="media__iteam">
-                <a href="" target="-blank" rel="noopener noreferrer" aria-label="иконка фейсбук" class="media-link media-link__follow">
+            <li class="media__item">
+                <a href="" target="-blank" rel="noopener noreferrer" aria-label="иконка фейсбук" class="media-link follow--media-link">
                 <svg width="20" height="20" class="media-icon  media-icon__follow">
                 <use href="./img/symbol-defs.svg#facebook"></use></svg>
                 </a>
             </li>
-            <li class="media__iteam">
-                <a href="" target="-blank" rel="noopener noreferrer" aria-label="иконка линкидин" class="media-link media-link__follow">
+            <li class="media__item">
+                <a href="" target="-blank" rel="noopener noreferrer" aria-label="иконка линкидин" class="media-link follow--media-link">
                 <svg width="20" height="20" class="media-icon  media-icon__follow">
                 <use href="./img/symbol-defs.svg#linkedin"></use></svg>
                 </a>

@@ -10,11 +10,6 @@
    
 }
 
-.media__iteam {
-    margin-right: 10px;
-    list-style-type: none;
-}
-
 
 
 
@@ -40,7 +35,7 @@
 }
 
 
-.footer-contact__iteam {
+.footer-contact__item {
     display: block;
     box-sizing: border-box;
     margin-bottom: 9px;
@@ -82,7 +77,23 @@
 
 /* Подписка в соц сети в футере*/
 
-.follow-caption-third {
+.follow {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items:flex-start;
+    padding: 0px;
+
+    position: absolute;
+    top: 65px;
+    left: 300px;
+    width: 206px;
+    height: 80px;
+}
+
+
+.follow--caption-third {
     display:block;
     box-sizing: border-box;
     padding: 0px;
@@ -98,20 +109,17 @@
 }
 
 
-.media-link__follow {
+.follow--media-link {
     background-color: rgba(255, 255, 255, 0.1);
 
     transition-property: background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-
-
-
-.media-link__follow:hover,
-.media-link__follow:focus {
+    &:hover,
+    &:focus {
     background-color: #2196F3;
+}
 }
 
 

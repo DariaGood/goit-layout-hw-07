@@ -150,7 +150,7 @@ body {
   padding: 0;
 }
 
-.header__contacts-iteam {
+.header__contacts-item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -164,7 +164,7 @@ body {
   padding: 32px 0;
 }
 
-.header__contacts-iteam:last-child {
+.header__contacts-item:last-child {
   margin-right: 0px;
 }
 
@@ -281,7 +281,7 @@ body {
   padding: 0;
 }
 
-.benefits__iteam {
+.benefits__item {
   display: block;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -291,11 +291,11 @@ body {
   padding: 0;
 }
 
-.benefits__iteam:not(:first-child) {
+.benefits__item:not(:first-child) {
   margin-left: 30px;
 }
 
-.benefits__iteam .benefits__rect {
+.benefits__item .benefits__rect {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -317,7 +317,7 @@ body {
   height: 120px;
 }
 
-.benefits__iteam .benefits__text {
+.benefits__item .benefits__text {
   color: #757575;
   font-size: 14px;
   line-height: 1.71;
@@ -361,7 +361,7 @@ body {
   padding: 0;
 }
 
-.we-do__iteam {
+.we-do__item {
   height: 294px;
   list-style-type: none;
   display: block;
@@ -374,7 +374,7 @@ body {
   position: relative;
 }
 
-.we-do__iteam::before {
+.we-do__item::before {
   content: ' ';
   display: block;
   background-color: rgba(47, 48, 58, 0.8);
@@ -385,7 +385,7 @@ body {
   left: 0px;
 }
 
-.we-do__iteam .we-do__about {
+.we-do__item .we-do__about {
   display: block;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -423,7 +423,7 @@ body {
   list-style-type: none;
 }
 
-.our-team__iteam {
+.our-team__item {
   background-color: #FFFFFF;
   width: 270px;
   -webkit-box-sizing: border-box;
@@ -436,7 +436,7 @@ body {
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
-.our-team__iteam:first-child {
+.our-team__item:first-child {
   margin-left: 0;
 }
 
@@ -523,7 +523,7 @@ body {
   list-style-type: none;
 }
 
-.clients__iteam {
+.clients__item {
   display: block;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -532,11 +532,11 @@ body {
   margin: 0px 30px 0px 0px;
 }
 
-.clients__iteam:last-child {
+.clients__item:last-child {
   margin-right: 0px;
 }
 
-.clients__iteam .clients__link {
+.clients__item .clients__link {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -561,11 +561,11 @@ body {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.clients__iteam .clients__link:hover {
+.clients__item .clients__link:hover {
   border-color: #2196F3;
 }
 
-.clients__iteam .clients__icon {
+.clients__item .clients__icon {
   fill: #AFB1B8;
   -webkit-transition-property: fill;
   transition-property: fill;
@@ -820,7 +820,7 @@ body {
   margin-right: auto;
 }
 
-.media__iteam {
+.media__item {
   margin-right: 10px;
   list-style-type: none;
 }
@@ -849,18 +849,18 @@ body {
   margin: 0;
 }
 
-.footer-contact__iteam {
+.footer-contact__item {
   display: block;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin-bottom: 9px;
 }
 
-.footer-contact__iteam:first-child {
+.footer-contact__item:first-child {
   margin-bottom: 20px;
 }
 
-.footer-contact__iteam:last-child {
+.footer-contact__item:last-child {
   margin-bottom: 0px;
 }
 
@@ -888,7 +888,7 @@ body {
 }
 
 /* Подписка в соц сети в футере*/
-.follow-caption-third {
+.follow--caption-third {
   display: block;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -903,7 +903,7 @@ body {
   color: #FFFFFF;
 }
 
-.media-link__follow {
+.follow--media-link {
   background-color: rgba(255, 255, 255, 0.1);
   -webkit-transition-property: background-color;
   transition-property: background-color;
@@ -913,8 +913,8 @@ body {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.media-link__follow:hover,
-.media-link__follow:focus {
+.follow--media-link:hover,
+.follow--media-link:focus {
   background-color: #2196F3;
 }
 
@@ -1123,7 +1123,7 @@ body {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.backdrop.is-hidden {
+.backdrop.backdrop--is-hidden {
   opacity: 0;
   pointer-events: none;
   visibility: hidden;
@@ -1412,7 +1412,7 @@ body {
   outline-color: #2196F3;
 }
 
-.a-button-form {
+.form-policy-group__link {
   padding-left: 5px;
   font-size: 12px;
   line-height: 24px;
@@ -1422,7 +1422,7 @@ body {
   color: #2196F3;
 }
 
-.a-button-form:visited {
+.form-policy-group__link:visited {
   color: #2196F3;
 }
 
@@ -1450,7 +1450,7 @@ body {
 }
 
 /* Иконки соц сетей общие параметры */
-.media__list {
+.media {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1465,7 +1465,7 @@ body {
   list-style-type: none;
 }
 
-.media__iteam .media-link {
+.media__item .media-link {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

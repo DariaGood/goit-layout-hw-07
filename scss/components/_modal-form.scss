@@ -16,7 +16,7 @@
 }
 
 
-.backdrop.is-hidden {
+.backdrop.backdrop--is-hidden {
     opacity: 0;
     pointer-events: none;
     visibility: hidden; 
@@ -73,10 +73,10 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-}
-
-.button-closing:hover .button-closing__icon {
-    fill:#2196F3
+    .button-closing:hover & {
+        fill:#2196F3
+    
+    }
 
 }
 
@@ -112,11 +112,12 @@
 .modal-form__item {
     position: relative;
     margin-bottom: 28px;
+    &:last-child {
+        margin-bottom: 0px;
+    }
+    
 }
 
-.modal-form__item:last-child {
-    margin-bottom: 0px;
-}
 
 /* Список в форме */
 
@@ -156,6 +157,16 @@
     transition-property: border-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:focus-within {  
+        border-color: #2196F3;
+        
+    }
+
+    &:focus  + .form-policy-group__icon {
+        fill:#2196F3;
+        cursor: pointer;
+    }
   
 }
 
@@ -180,15 +191,9 @@
 }
 
 
-.modal-form__text:focus  + .form-policy-group__icon {
-    fill:#2196F3;
-    cursor: pointer;
-}
+
   
-.modal-form__text:focus-within {  
-    border-color: #2196F3;
-    
-}
+
 
 
 .modal-form__comment {
@@ -212,21 +217,23 @@
     transition-property: border-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-
-.modal-form__comment::placeholder {
-    color: rgba(117, 117, 117, 0.5);
-}
-
-.modal-form__comment:focus-within{
-    outline: 0;
-    border-color: #2196F3;
-    border-width: 1px;
-    border-style: solid;
-    border-radius: 4px;
+    &::placeholder {
+        color: rgba(117, 117, 117, 0.5);
+    }
     
+    &:focus-within{
+        outline: 0;
+        border-color: #2196F3;
+        border-width: 1px;
+        border-style: solid;
+        border-radius: 4px;
+        
+    }
 }
+
+
+
 
 
 
@@ -260,11 +267,22 @@
 
     margin: 0px;
 
+    visibility: hidden;
+
+    &:checked  + .form-policy-group__checkbox .form-policy-group__icon {
+        fill: #FFFFFF;
+    }
+    
+    &:checked + .form-policy-group__checkbox {
+        border-style: none;
+        background-color: #2196F3;
+        outline-color:#2196F3;
+       
+    
+    }
+
 }
 
-.form-policy-group__agreement {
-    visibility: hidden;
-}
 
 .form-policy-group__checkbox {
     display: flex;
@@ -303,19 +321,9 @@
 }
 
 
-.form-policy-group__agreement:checked  + .form-policy-group__checkbox .form-policy-group__agreement {
-    fill: #FFFFFF;
-}
 
-.form-policy-group__agreement:checked + .form-policy-group__checkbox {
-    border-style: none;
-    background-color: #2196F3;
-    outline-color:#2196F3;
-   
 
-}
-
-.a-button-form {
+.form-policy-group__link {
     padding-left: 5px;
     font-size: 12px;
     line-height: 24px;
@@ -323,12 +331,14 @@
     text-decoration-line: underline;
 
     color: #2196F3;
+
+    &:visited {
+        color:#2196F3;
+    }
     
 }
 
-.a-button-form:visited {
-    color:#2196F3;
-}
+
 
 .button-submit {
     display: block;
