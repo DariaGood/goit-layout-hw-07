@@ -1,15 +1,23 @@
 // utils
+@import './utils/mixins';
+@import './utils/variables';
 @import './utils/vars';
 @import './utils/vissually-hidden';
-@import './utils/variables';
-@import './utils/mixins';
 
-// base styles
+
+// base
 @import './base/common';
-@import './base/reset';
 @import './base/container';
+@import './base/reset';
 
-
+// components
+@import './components/header-navigation';
+@import './components/button';
+@import './components/logo';
+@import './components/modal-form';
+@import './components/social';
+@import './components/portfolio-nav';
+@import './components/form-contact-follow';
 
 // layouts
 @import './layouts/header';
@@ -21,15 +29,3 @@
 @import './layouts/footer';
 @import './layouts/portfolio-grid';
 
-
-
-
-
-// components
-@import './components/logo';
-@import './components/button';
-@import './components/navigation';
-@import './components/modal-form';
-@import './components/social';
-@import './components/portfolio-nav';
-@import './components/form-contact-follow';
